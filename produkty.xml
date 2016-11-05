@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_66" class="java.beans.XMLDecoder">
+ <object class="java.util.HashMap">
+  <void method="put">
+   <int>0</int>
+   <object class="zalando.Obuwie">
+    <void property="WPromocji">
+     <boolean>true</boolean>
+    </void>
+    <void property="cena">
+     <float>249.0</float>
+    </void>
+    <void property="cenaPromocyjna">
+     <float>174.3</float>
+    </void>
+    <void property="kolor">
+     <object class="java.lang.Enum" id="Produkt$Kolor0" method="valueOf">
+      <class>zalando.Produkt$Kolor</class>
+      <string>Biały</string>
+     </object>
+    </void>
+    <void property="koniecPromocji">
+     <object class="java.util.GregorianCalendar">
+      <void property="time">
+       <object class="java.util.Date">
+        <long>1459434973076</long>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="marka">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>zalando.Produkt$Marka</class>
+      <string>Converse</string>
+     </object>
+    </void>
+    <void property="material">
+     <object class="java.lang.Enum" id="Produkt$Material0" method="valueOf">
+      <class>zalando.Produkt$Material</class>
+      <string>Materiał</string>
+     </object>
+    </void>
+    <void property="nazwa">
+     <string>Trampki</string>
+    </void>
+    <void property="obcas">
+     <object class="java.lang.Enum" id="Obuwie$Obcas0" method="valueOf">
+      <class>zalando.Obuwie$Obcas</class>
+      <string>Brak</string>
+     </object>
+    </void>
+    <void property="plec">
+     <object class="java.lang.Enum" id="Produkt$Plec0" method="valueOf">
+      <class>zalando.Produkt$Plec</class>
+      <string>Unisex</string>
+     </object>
+    </void>
+    <void property="poczatekPromocji">
+     <object class="java.util.GregorianCalendar">
+      <void property="time">
+       <object class="java.util.Date">
+        <long>1451602800000</long>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="rabat">
+     <float>0.3</float>
+    </void>
+    <void property="rozmiar">
+     <int>42</int>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <int>1</int>
+   <object class="zalando.Obuwie">
+    <void property="cena">
+     <float>299.0</float>
+    </void>
+    <void property="kolor">
+     <object idref="Produkt$Kolor0"/>
+    </void>
+    <void property="koniecPromocji">
+     <object class="java.util.GregorianCalendar">
+      <void property="time">
+       <object class="java.util.Date">
+        <long>1453477424089</long>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="marka">
+     <object class="java.lang.Enum" id="Produkt$Marka0" method="valueOf">
+      <class>zalando.Produkt$Marka</class>
+      <string>Steel</string>
+     </object>
+    </void>
+    <void property="material">
+     <object class="java.lang.Enum" id="Produkt$Material1" method="valueOf">
+      <class>zalando.Produkt$Material</class>
+      <string>Skóra</string>
+     </object>
+    </void>
+    <void property="nazwa">
+     <string>Glany wysokie</string>
+    </void>
+    <void property="obcas">
+     <object idref="Obuwie$Obcas0"/>
+    </void>
+    <void property="plec">
+     <object idref="Produkt$Plec0"/>
+    </void>
+    <void property="poczatekPromocji">
+     <object class="java.util.GregorianCalendar">
+      <void property="time">
+       <object class="java.util.Date">
+        <long>1453477424089</long>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="rabat">
+     <float>0.1</float>
+    </void>
+    <void property="rozmiar">
+     <int>45</int>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <int>2</int>
+   <object class="zalando.Spodnie">
+    <void property="cena">
+     <float>179.99</float>
+    </void>
+    <void property="dlugosc">
+     <int>92</int>
+    </void>
+    <void property="kolor">
+     <object class="java.lang.Enum" id="Produkt$Kolor1" method="valueOf">
+      <class>zalando.Produkt$Kolor</class>
+      <string>Niebieski</string>
+     </object>
+    </void>
+    <void property="koniecPromocji">
+     <object class="java.util.GregorianCalendar" id="GregorianCalendar0">
+      <void property="time">
+       <object class="java.util.Date">
+        <long>1453477505033</long>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="marka">
+     <object class="java.lang.Enum" id="Produkt$Marka1" method="valueOf">
+      <class>zalando.Produkt$Marka</class>
+      <string>Wrangler</string>
+     </object>
+    </void>
+    <void property="material">
+     <object class="java.lang.Enum" id="Produkt$Material2" method="valueOf">
+      <class>zalando.Produkt$Material</class>
+      <string>Jeans</string>
+     </object>
+    </void>
+    <void property="nazwa">
+     <string>Jeansy</string>
+    </void>
+    <void property="plec">
+     <object class="java.lang.Enum" id="Produkt$Plec1" method="valueOf">
+      <class>zalando.Produkt$Plec</class>
+      <string>Żeńska</string>
+     </object>
+    </void>
+    <void property="poczatekPromocji">
+     <object idref="GregorianCalendar0"/>
+    </void>
+    <void property="rabat">
+     <float>0.1</float>
+    </void>
+    <void property="rozmiar">
+     <int>35</int>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <int>3</int>
+   <object class="zalando.Spodnie">
+    <void property="WPromocji">
+     <boolean>true</boolean>
+    </void>
+    <void property="cena">
+     <float>149.99</float>
+    </void>
+    <void property="cenaPromocyjna">
+     <float>89.99</float>
+    </void>
+    <void property="dlugosc">
+     <int>178</int>
+    </void>
+    <void property="kolor">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>zalando.Produkt$Kolor</class>
+      <string>Szary</string>
+     </object>
+    </void>
+    <void property="koniecPromocji">
+     <object class="java.util.GregorianCalendar">
+      <void property="time">
+       <object class="java.util.Date">
+        <long>1483138800000</long>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="marka">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>zalando.Produkt$Marka</class>
+      <string>Nike</string>
+     </object>
+    </void>
+    <void property="material">
+     <object idref="Produkt$Material2"/>
+    </void>
+    <void property="nazwa">
+     <string>Dresy</string>
+    </void>
+    <void property="plec">
+     <object class="java.lang.Enum" id="Produkt$Plec2" method="valueOf">
+      <class>zalando.Produkt$Plec</class>
+      <string>Męska</string>
+     </object>
+    </void>
+    <void property="poczatekPromocji">
+     <object class="java.util.GregorianCalendar">
+      <void property="time">
+       <object class="java.util.Date">
+        <long>1451602800000</long>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="rabat">
+     <float>0.4</float>
+    </void>
+    <void property="rozmiar">
+     <int>39</int>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <int>4</int>
+   <object class="zalando.Tshirt">
+    <void property="cena">
+     <float>49.9</float>
+    </void>
+    <void property="kolor">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>zalando.Produkt$Kolor</class>
+      <string>Żółty</string>
+     </object>
+    </void>
+    <void property="marka">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>zalando.Produkt$Marka</class>
+      <string>Puma</string>
+     </object>
+    </void>
+    <void property="material">
+     <object idref="Produkt$Material0"/>
+    </void>
+    <void property="nazwa">
+     <string>Koszulka</string>
+    </void>
+    <void property="plec">
+     <object idref="Produkt$Plec2"/>
+    </void>
+    <void property="rozmiar">
+     <object class="java.lang.Enum" id="Koszula$RozmiarKoszuli0" method="valueOf">
+      <class>zalando.Koszula$RozmiarKoszuli</class>
+      <string>M</string>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <int>5</int>
+   <object class="zalando.Obuwie">
+    <void property="WPromocji">
+     <boolean>true</boolean>
+    </void>
+    <void property="cena">
+     <float>299.0</float>
+    </void>
+    <void property="cenaPromocyjna">
+     <float>209.3</float>
+    </void>
+    <void property="kolor">
+     <object class="java.lang.Enum" id="Produkt$Kolor2" method="valueOf">
+      <class>zalando.Produkt$Kolor</class>
+      <string>Czarny</string>
+     </object>
+    </void>
+    <void property="koniecPromocji">
+     <object class="java.util.GregorianCalendar">
+      <void property="time">
+       <object class="java.util.Date">
+        <long>1459436216371</long>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="marka">
+     <object idref="Produkt$Marka0"/>
+    </void>
+    <void property="material">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>zalando.Produkt$Material</class>
+      <string>EkoSkóra</string>
+     </object>
+    </void>
+    <void property="nazwa">
+     <string>Glany klasyczne</string>
+    </void>
+    <void property="obcas">
+     <object idref="Obuwie$Obcas0"/>
+    </void>
+    <void property="plec">
+     <object idref="Produkt$Plec0"/>
+    </void>
+    <void property="poczatekPromocji">
+     <object class="java.util.GregorianCalendar">
+      <void property="time">
+       <object class="java.util.Date">
+        <long>1451602800000</long>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="rabat">
+     <float>0.3</float>
+    </void>
+    <void property="rozmiar">
+     <int>45</int>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <int>6</int>
+   <object class="zalando.Tshirt">
+    <void property="cena">
+     <float>49.99</float>
+    </void>
+    <void property="kolor">
+     <object idref="Produkt$Kolor0"/>
+    </void>
+    <void property="marka">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>zalando.Produkt$Marka</class>
+      <string>Adidas</string>
+     </object>
+    </void>
+    <void property="material">
+     <object idref="Produkt$Material0"/>
+    </void>
+    <void property="nazwa">
+     <string>T-Shirt</string>
+    </void>
+    <void property="plec">
+     <object idref="Produkt$Plec1"/>
+    </void>
+    <void property="rozmiar">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>zalando.Koszula$RozmiarKoszuli</class>
+      <string>XS</string>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <int>7</int>
+   <object class="zalando.Elegancka">
+    <void property="cena">
+     <float>99.99</float>
+    </void>
+    <void property="kolnierzyk">
+     <int>5</int>
+    </void>
+    <void property="kolor">
+     <object idref="Produkt$Kolor1"/>
+    </void>
+    <void property="krawat">
+     <object class="java.lang.Enum" id="Elegancka$Krawat0" method="valueOf">
+      <class>zalando.Elegancka$Krawat</class>
+      <string>Brak</string>
+     </object>
+    </void>
+    <void property="marka">
+     <object class="java.lang.Enum" id="Produkt$Marka2" method="valueOf">
+      <class>zalando.Produkt$Marka</class>
+      <string>Mustang</string>
+     </object>
+    </void>
+    <void property="material">
+     <object idref="Produkt$Material0"/>
+    </void>
+    <void property="nazwa">
+     <string>Koszula w kratę</string>
+    </void>
+    <void property="plec">
+     <object idref="Produkt$Plec2"/>
+    </void>
+    <void property="rozmiar">
+     <object idref="Koszula$RozmiarKoszuli0"/>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <int>8</int>
+   <object class="zalando.Elegancka">
+    <void property="cena">
+     <float>49.99</float>
+    </void>
+    <void property="kolnierzyk">
+     <int>5</int>
+    </void>
+    <void property="kolor">
+     <object idref="Produkt$Kolor1"/>
+    </void>
+    <void property="krawat">
+     <object idref="Elegancka$Krawat0"/>
+    </void>
+    <void property="marka">
+     <object idref="Produkt$Marka2"/>
+    </void>
+    <void property="material">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>zalando.Produkt$Material</class>
+      <string>Flanela</string>
+     </object>
+    </void>
+    <void property="nazwa">
+     <string>Koszula flanelowa</string>
+    </void>
+    <void property="plec">
+     <object idref="Produkt$Plec1"/>
+    </void>
+    <void property="rozmiar">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>zalando.Koszula$RozmiarKoszuli</class>
+      <string>S</string>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <int>9</int>
+   <object class="zalando.Elegancka">
+    <void property="cena">
+     <float>99.99</float>
+    </void>
+    <void property="kolnierzyk">
+     <int>5</int>
+    </void>
+    <void property="kolor">
+     <object idref="Produkt$Kolor2"/>
+    </void>
+    <void property="krawat">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>zalando.Elegancka$Krawat</class>
+      <string>Krawat</string>
+     </object>
+    </void>
+    <void property="marka">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>zalando.Produkt$Marka</class>
+      <string>Lee</string>
+     </object>
+    </void>
+    <void property="material">
+     <object idref="Produkt$Material0"/>
+    </void>
+    <void property="nazwa">
+     <string>Koszula z krawatem</string>
+    </void>
+    <void property="plec">
+     <object idref="Produkt$Plec2"/>
+    </void>
+    <void property="rozmiar">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>zalando.Koszula$RozmiarKoszuli</class>
+      <string>L</string>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <int>10</int>
+   <object class="zalando.Kurtka">
+    <void property="cena">
+     <float>399.0</float>
+    </void>
+    <void property="kolor">
+     <object idref="Produkt$Kolor2"/>
+    </void>
+    <void property="marka">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>zalando.Produkt$Marka</class>
+      <string>Reebok</string>
+     </object>
+    </void>
+    <void property="material">
+     <object idref="Produkt$Material0"/>
+    </void>
+    <void property="nazwa">
+     <string>Kurtka zimowa</string>
+    </void>
+    <void property="plec">
+     <object idref="Produkt$Plec1"/>
+    </void>
+    <void property="rodzajKurtki">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>zalando.Kurtka$RodzajKurtki</class>
+      <string>Zimowa</string>
+     </object>
+    </void>
+    <void property="rozmiar">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>zalando.Kurtka$RozmiarKurtki</class>
+      <string>XS</string>
+     </object>
+    </void>
+    <void property="zapiecie">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>zalando.Kurtka$Zapiecie</class>
+      <string>Zamek</string>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <int>11</int>
+   <object class="zalando.Kurtka">
+    <void property="cena">
+     <float>699.0</float>
+    </void>
+    <void property="kolor">
+     <object idref="Produkt$Kolor2"/>
+    </void>
+    <void property="marka">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>zalando.Produkt$Marka</class>
+      <string>Diesel</string>
+     </object>
+    </void>
+    <void property="material">
+     <object idref="Produkt$Material1"/>
+    </void>
+    <void property="nazwa">
+     <string>Kurtka zimowa</string>
+    </void>
+    <void property="plec">
+     <object idref="Produkt$Plec2"/>
+    </void>
+    <void property="rodzajKurtki">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>zalando.Kurtka$RodzajKurtki</class>
+      <string>Jesienna</string>
+     </object>
+    </void>
+    <void property="rozmiar">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>zalando.Kurtka$RozmiarKurtki</class>
+      <string>M</string>
+     </object>
+    </void>
+    <void property="zapiecie">
+     <object class="java.lang.Enum" id="Kurtka$Zapiecie0" method="valueOf">
+      <class>zalando.Kurtka$Zapiecie</class>
+      <string>Guziki</string>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <int>12</int>
+   <object class="zalando.Kurtka">
+    <void property="cena">
+     <float>214.99</float>
+    </void>
+    <void property="kolor">
+     <object idref="Produkt$Kolor1"/>
+    </void>
+    <void property="marka">
+     <object idref="Produkt$Marka1"/>
+    </void>
+    <void property="material">
+     <object idref="Produkt$Material2"/>
+    </void>
+    <void property="nazwa">
+     <string>Kurta jeansowa</string>
+    </void>
+    <void property="plec">
+     <object idref="Produkt$Plec0"/>
+    </void>
+    <void property="rodzajKurtki">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>zalando.Kurtka$RodzajKurtki</class>
+      <string>Letnia</string>
+     </object>
+    </void>
+    <void property="rozmiar">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>zalando.Kurtka$RozmiarKurtki</class>
+      <string>XL</string>
+     </object>
+    </void>
+    <void property="zapiecie">
+     <object idref="Kurtka$Zapiecie0"/>
+    </void>
+   </object>
+  </void>
+ </object>
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <boolean>true</boolean>
+  </void>
+  <void method="add">
+   <boolean>true</boolean>
+  </void>
+  <void method="add">
+   <boolean>true</boolean>
+  </void>
+  <void method="add">
+   <boolean>true</boolean>
+  </void>
+  <void method="add">
+   <boolean>true</boolean>
+  </void>
+  <void method="add">
+   <boolean>true</boolean>
+  </void>
+  <void method="add">
+   <boolean>true</boolean>
+  </void>
+  <void method="add">
+   <boolean>true</boolean>
+  </void>
+  <void method="add">
+   <boolean>true</boolean>
+  </void>
+  <void method="add">
+   <boolean>true</boolean>
+  </void>
+  <void method="add">
+   <boolean>true</boolean>
+  </void>
+  <void method="add">
+   <boolean>true</boolean>
+  </void>
+  <void method="add">
+   <boolean>true</boolean>
+  </void>
+ </object>
+</java>
